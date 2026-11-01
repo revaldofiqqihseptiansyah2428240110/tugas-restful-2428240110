@@ -1,0 +1,20 @@
+{
+  "name": "tugas3-mongodb-rooms",
+  "version": "1.0.0",
+  "description": "Tugas 3 - RESTful API Hotel: Kamar dengan MongoDB (Topik 8)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
